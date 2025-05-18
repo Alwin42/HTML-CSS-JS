@@ -11,20 +11,6 @@ A simple and lightweight notes-taking web app built using **HTML**, **CSS**, and
 - 🗑️ Delete notes with a click
 - 🎨 Clean and responsive UI
 
-
----
-
-## 📂 Project Structure
-quick-notes/
-├── assets/
-│   ├── delete.png       
-│   ├── edit.png        
-│   └── notes.png        
-├── index.html          
-├── script.js           
-├── style.css           
-└── README.md            
-
 ---
 
 ## 🛠️ How to Run
