@@ -17,13 +17,13 @@ A simple and lightweight notes-taking web app built using **HTML**, **CSS**, and
 ## 📂 Project Structure
 quick-notes/
 ├── assets/
-│   ├── delete.png       # Icon for deleting notes
-│   ├── edit.png         # (Optional) Icon for editing notes
-│   └── notes.png        # Icon/logo for the app
-├── index.html           # Main HTML file
-├── script.js            # JavaScript for app logic
-├── style.css            # Stylesheet for UI
-└── README.md            # Project documentation
+│   ├── delete.png       
+│   ├── edit.png        
+│   └── notes.png        
+├── index.html          
+├── script.js           
+├── style.css           
+└── README.md            
 
 ---
 
