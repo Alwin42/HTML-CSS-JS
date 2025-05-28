@@ -8,3 +8,4 @@ Welcome to the **HTML, CSS & JavaScript Projects**. This collection is a great s
 | # | Project Name         | Description                                 |
 |---|----------------------|---------------------------------------------|
 | 1 | Quick-Notes          | A basic Quick Notes website to add and delete notes  |
+| 2 | Todo         | A basic todo website to add and delete todo's |
