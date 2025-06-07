@@ -99,6 +99,12 @@ span
     transform: translateX(-50%);
     transition: bottom 1s , left 1s;
 }
+.image-box .main-img
+{
+    width: 50%;
+    height: 80%;
+    object-fit: cover;
+}
 .image-box:hover .back-img
 {
    bottom:40px; 
