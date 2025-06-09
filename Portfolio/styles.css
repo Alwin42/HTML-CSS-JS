@@ -39,7 +39,7 @@ nav ul li a
 }
 nav ul li a:hover
 {
-    color : #f78215;
+    color : #f75515;
 }   
 .comp
 {
@@ -64,7 +64,7 @@ nav ul li a:hover
 }
 span
 {
-    color:hsl(29, 100%, 50%);
+    color: #f75515;
 }
 .info a
 {
@@ -79,8 +79,8 @@ span
 }
 .info a:hover
 {
-    color:#000000;
-    background-color:#f78215;
+    color:#ffffff;
+    background-color: #f75515;
 }
 .image-box
 {
@@ -114,37 +114,84 @@ span
    left:53%;
 }
 
-.about-content {
-  max-width: 800px;
-  padding: 2rem;
-  margin: auto;
-  text-align: center;
-  color: #000000;
+.panel-about
+{
+    height: 100vh;
+    width: 100%;
+    background: #d7d7db;
 }
-
-.about-content h1 {
-  font-size: 3rem;
-  margin-bottom: 1rem;
+.about-content
+{
+    display:flex;
+    flex-direction:column;
 }
-
-.about-content p {
-  font-size: 1.2rem;
-  line-height: 1.8;
-  margin-bottom: 1rem;
+.about-content h1
+{
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
 }
-
-.btn {
-  display: inline-block;
-  margin-top: 1.5rem;
-  padding: 0.75rem 1.5rem;
-  background-color: #ffffff;
-  color: #000;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 8px;
-  transition: background 0.3s ease;
+.about-content p
+{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 30px;
+    line-height: 1.6;
+    margin-top: 20px;
+    margin-bottom: 50px;
 }
+.about-content .btn
+{
+    text-decoration:none;
+    width: 76px;
+    height: 20px;
+    background-color:#000;
+    color : white;
+    padding : 10px ;
+    border-radius: 10px;
+    margin-left : 47%;
 
-.btn:hover {
-  background-color: #000000;
+}
+.about-content .btn:hover{
+    color:#d7d7db;
+    background-color:#f75515;
+}
+.panel-project
+{
+    width:100%;
+    height:100vh;
+    background: #d7d7db;
+    display : flex;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+.panel-project h1
+{
+    font-size: 50px;
+    align-items: center;
+}
+.cards
+{
+    background-color:#09c0a2;
+    width: 400px;
+    height: 400px;
+    display:flex;
+    flex-direction: column;
+    justify-content : center;
+    align-items:center;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+.cards .img
+{
+   width: 150px;
+   height: 150px;
+}
+.cards-section
+{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
