@@ -1,19 +1,25 @@
+
 *
 {
     margin : 0;
     padding: 0;
 }
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 .hero
 {
     height : 100vh;
     width : 100%;
-    background : #d7d7db;
+    background : #9B7EBD;
     font-family: 'Arial', sans-serif;
     position: relative;
 
 }
 nav 
 {
+    background-color:#7F55B1;
     width : 100%;
     display : flex;
     padding : 20px 0;
@@ -33,13 +39,13 @@ nav ul li{
 nav ul li a
 {
     text-decoration : none;
-    color : #000;
+    color : #ffffff;
     font-weight : 500;
     font-size : 20px;
 }
 nav ul li a:hover
 {
-    color : #f75515;
+    color : #FFE1E0;
 }   
 .comp
 {
@@ -50,26 +56,28 @@ nav ul li a:hover
 .info
 {
     margin-left:8%;
-    margin-top: 15%;
+    margin-top: 10%;
 }
 .info h1
 {
     font-size: 70px;
-    color :#000;
+    color :#ffffff;
     margin-bottom: 20px;
 }
 .info p
-{
+{ 
+    color: #ffffff;
+    font-size: 20px;
     margin-bottom:30px;
 }
 span
 {
-    color: #f75515;
+    color: #441480;
 }
 .info a
 {
-    color:#ffffff;
-    background-color:#000;
+    color:#441480;
+    background-color:#FFE1E0;
     padding: 10px;
     width: 44px;
     margin-top: 30px;
@@ -80,7 +88,7 @@ span
 .info a:hover
 {
     color:#ffffff;
-    background-color: #f75515;
+    background-color: #7F55B1;
 }
 .image-box
 {
@@ -100,7 +108,8 @@ span
     transition: bottom 1s , left 1s;
 }
 .image-box .main-img
-{
+{   
+    bottom: 20;
     width: 50%;
     height: 80%;
     object-fit: cover;
@@ -118,10 +127,14 @@ span
 {
     height: 100vh;
     width: 100%;
-    background: #d7d7db;
+    background: #9B7EBD;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+
 }
 .about-content
-{
+{   
     display:flex;
     flex-direction:column;
 }
@@ -135,46 +148,52 @@ span
 {
     width: 60%;
     margin: 0 auto;
-    font-size: 30px;
+    font-size: 28px;
     line-height: 1.6;
     margin-top: 20px;
     margin-bottom: 50px;
+    text-align : justify;
 }
-.about-content .btn
-{
-    text-decoration:none;
-    width: 76px;
-    height: 20px;
-    background-color:#000;
-    color : white;
-    padding : 10px ;
-    border-radius: 10px;
-    margin-left : 47%;
+.about-content .btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #7F55B1;;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 20px auto 0;
+}
+.about-content .btn:hover {
+  background-color: #F49BAB;
+  transform: scale(1.05);
+}
 
-}
-.about-content .btn:hover{
-    color:#d7d7db;
-    background-color:#f75515;
-}
 .panel-project
 {
     width:100%;
     height:100vh;
-    background: #d7d7db;
+    background: #9B7EBD;
     display : flex;
     flex-direction:column;
     justify-content:flex-start;
 }
 .panel-project h1
 {
+    color: #ffff;
+    text-align: center;
+    margin-top: 50px;
     font-size: 50px;
     align-items: center;
 }
 .cards
 {
-    background-color:#09c0a2;
+    background-color:#7F55B1;
+    color: white;
     width: 400px;
-    height: 400px;
+    height: 600px;
     display:flex;
     flex-direction: column;
     justify-content : center;
@@ -182,16 +201,49 @@ span
     margin-left: 30px;
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 
+}
+.cards h1
+{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.cards h2
+{
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 .cards .img
 {
-   width: 150px;
+   width: 250px;
    height: 150px;
+   border-radius: 10px;
+   overflow: hidden;
 }
 .cards-section
 {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.cards .btn
+{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color:#F49BAB;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.cards .btn:hover
+{
+    color:#7F55B1;
+    background-color: #FFE1E0;
+    transform: scale(1.05);
 }
