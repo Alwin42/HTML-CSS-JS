@@ -13,7 +13,6 @@ body {
     height : 100vh;
     width : 100%;
     background : #9B7EBD;
-    font-family: 'Arial', sans-serif;
     position: relative;
 
 }
@@ -240,7 +239,7 @@ span
     border: none;
     font-size: 18px;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: background-color 0.3s ease-in, transform 0.2s ease-out;
 }
 .cards .btn:hover
 {
@@ -250,6 +249,15 @@ span
 }
 .cards:hover{
     transform: translateY(-10px);
-    box-shadow: 0 0 12px #F49BAB, 0 0 25px #F49BAB, 0 0 40px #F49BAB;
+    box-shadow: 0 0 12px #F49BAB, 0 0 25px #F49BAB, 0 0 30px #F49BAB;
     border:#F49BAB solid 2px;
+}
+
+.panel-contact
+{
+    height : 100vh;
+    width : 100%;
+    background : #9B7EBD;
+    position: relative;
+
 }

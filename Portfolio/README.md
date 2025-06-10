@@ -1,6 +1,6 @@
 # 💼 Portfolio
 
-A personal portfolio website to showcase my skills, projects, and achievements. Built with a clean and responsive design to leave a professional impression.
+A personal portfolio website to showcase my skills, projects, and achievements. Built with a clean design to leave a professional impression.
 
 ---
 
@@ -16,5 +16,5 @@ A personal portfolio website to showcase my skills, projects, and achievements. 
 To run the project locally:
 
 ```bash
-git clone https://github.com/yourusername/portfolio.git
-cd portfolio
+git clone https://github.com/Alwin42/HTML-CSS-JS/tree/main/Portfolio
+cd Portfolio
