@@ -1,20 +1,41 @@
-# 💼 Portfolio
+# 💼 Personal Portfolio Website
 
-A personal portfolio website to showcase my skills, projects, and achievements. Built with a clean design to leave a professional impression.
+A clean and responsive personal portfolio website built using **HTML**, **CSS**, and **JavaScript**. It showcases my work, skills, and contact information — ideal for employers, clients, and fellow developers to know more about me.
 
----
+## 🚀 Live Demo
 
-## 🔧 Tech Stack
-
-- HTML5
-- CSS3
+👉 [View Live Website](https://yourusername.github.io/your-portfolio/)
 
 ---
 
-## 📦 Installation
+## 📌 Features
 
-To run the project locally:
+- ✅ Smooth scrolling navigation
+- ✅ Responsive design (mobile & desktop)
+- ✅ Home, About, Projects, Contact sections
+- ✅ Downloadable resume link
+- ✅ GitHub and LinkedIn profile integration
+- ✅ Clean UI with soft modern colors
 
-```bash
-git clone https://github.com/Alwin42/HTML-CSS-JS/tree/main/Portfolio
-cd Portfolio
+---
+
+## 🛠️ Tech Stack
+
+| Technology | Usage            |
+|------------|------------------|
+| HTML5      | Structure        |
+| CSS3       | Styling          |
+| JavaScript | Interactivity    |
+| Google Fonts | Custom typography |
+| Font Awesome | Social icons  |
+
+---
+
+## 📷 Preview
+
+![Portfolio Preview](https://yourimageurl.com/preview.png)
+
+---
+
+## 📂 Folder Structure
+
