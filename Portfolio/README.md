@@ -11,7 +11,6 @@ A clean and responsive personal portfolio website built using **HTML**, **CSS**,
 ## 📌 Features
 
 - ✅ Smooth scrolling navigation
-- ✅ Responsive design (mobile & desktop)
 - ✅ Home, About, Projects, Contact sections
 - ✅ Downloadable resume link
 - ✅ GitHub and LinkedIn profile integration
@@ -27,7 +26,6 @@ A clean and responsive personal portfolio website built using **HTML**, **CSS**,
 | CSS3       | Styling          |
 | JavaScript | Interactivity    |
 | Google Fonts | Custom typography |
-| Font Awesome | Social icons  |
 
 ---
 
@@ -37,5 +35,4 @@ A clean and responsive personal portfolio website built using **HTML**, **CSS**,
 
 ---
 
-## 📂 Folder Structure
 
