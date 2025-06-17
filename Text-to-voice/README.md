@@ -20,7 +20,7 @@ To clone this repository using Git, run the following command in your terminal:
 ```bash
 git clone https://github.com/Alwin42/HTML-CSS-JS/tree/main/Text-to-voice
 cd Text-to-voice
-
+```
 ---
 
 ## 🛠️ Tech Stack
@@ -29,4 +29,4 @@ cd Text-to-voice
 - CSS3 (Flexbox/Grid for layout)
 - Vanilla JavaScript (ES6+)
 - Web Speech API (`speechSynthesis`)
-```
+
