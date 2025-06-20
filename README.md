@@ -10,3 +10,4 @@ Welcome to the **HTML, CSS & JavaScript Projects**. This collection is a great s
 | 1 | Quick-Notes          | A basic Quick Notes website to add and delete notes  |
 | 2 | Todo         | A basic todo website to add and delete todo's |
 | 3 | Portfolio         | A basic portfolio website to add Resume , showcase projects and contact information |
+| 4 | Voicely         | A basic Text-to-Speech website to convert text into voices |
