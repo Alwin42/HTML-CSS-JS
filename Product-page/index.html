@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <title>Product page</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="product">
+            <div class="gallery">
+                <img src="./images/image1.png">
+
+            </div>
+            <div class="details">
+                <h1>Casual T-shirts</h1>
+                <h2>$10.00</h2>
+                <h3>20% OFF</h3>
+                <p>Casual T-shirts are made from 100% cotton, providing a soft and comfortable fit. Perfect for everyday wear, these shirts come in various colors and sizes to suit your style.</p>
+            <form>
+                <div class="size-select">
+                    <p>Size</p>
+                    <label for="small">
+                        <input type="radio" id="small" name="size" >
+                        <span>S</span>
+                    <label for="medium">
+                        <input type="radio" id="medium" name="size" >
+                        <span>M</span>
+                    </label>
+                    <label for="large">
+                        <input type="radio" id="large" name="size" >
+                        <span>L</span>
+                    </label>
+                    <label for="Xlarge">
+                        <input type="radio" id="Xlarge" name="size" >
+                        <span>XL</span>
+                    </label>
+                </div>
+                <div class="color-select">
+                    <p>Color</p>
+                    <label for="red">
+                        <input type="radio" id="red">
+                        <span class="color1"></span>
+                    </label>
+                    <label for="green">
+                        <input type="radio" id="green">
+                        <span class="color2"></span>
+                    </label>
+                    <label for="blue">
+                        <input type="radio" id="blue">
+                        <span class="color3"></span>
+                    </label>
+                    <label for="pink">
+                        <input type="radio" id="pink">
+                        <span class="color2"></span>
+                    </label>
+                </div>
+            </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
