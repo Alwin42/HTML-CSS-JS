@@ -12,3 +12,4 @@ Welcome to the **HTML, CSS & JavaScript Projects**. This collection is a great s
 | 2 | Todo         | A basic todo website to add and delete todo's |
 | 3 | Portfolio         | A basic portfolio website to add Resume , showcase projects and contact information |
 | 4 | Voicely         | A basic Text-to-Speech website to convert text into voices |
+| 5 | Product Page       | A basic product website to showcase product |
