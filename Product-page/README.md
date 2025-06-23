@@ -1,5 +1,3 @@
----
-
 # 🛍️ Product Showcase Website
 
 This is a simple and responsive product showcase web application that allows users to:
