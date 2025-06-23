@@ -1,3 +1,4 @@
+
 # 🛍️ Product Showcase Website
 
 This is a simple and responsive product showcase web application that allows users to:
@@ -34,6 +35,6 @@ This is a simple and responsive product showcase web application that allows use
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/product-showcase-website.git
-cd product-showcase-website
+git clone https://github.com/Alwin42/HTML-CSS-JS/tree/main/Product-page
+cd Product-page
 ```
